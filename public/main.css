@@ -1,0 +1,225 @@
+#exampleQuestions > .card:hover, #questionsWritten > .card:hover, #answersWritten > .card:hover, #answersWritten-event > .card:hover, #eventsWritten > .card:hover {
+    border-color: rgba(82, 168, 236, 0.8);
+    box-shadow: 0px 0px 8px rgba(82, 168, 236, 0.6);
+}
+
+.highlight {
+    background-color: yellow;
+ }
+
+.answer {
+    line-height: 2em;
+    font-size: 14px
+}
+
+#error_panel {
+    color: red;
+    font-weight: bold
+}
+
+
+#error_panel-event {
+    color: red;
+    font-weight: bold
+}
+
+.rectangles {
+    min-height: 50px;
+    font-size: 12px;
+    background-color: #cab;
+    text-align: center;
+}
+
+.rectangles:hover {
+    border: solid darkred;
+}
+
+.notes-wrapper {
+    max-width: 1600px;
+    overflow: hidden;
+    display: flex;
+}
+
+.note {
+    width: 250px;
+    min-height: 30px;
+    background-color: #ffa94d;
+    margin: 5px;
+    font-size: 16px;
+    display: inline-flex;
+    text-align: center
+}
+
+.qapairs {
+    top: 10px;
+    padding: 10px 0px 0px 20px;
+}
+
+.qapairs>div {
+    min-width: 700px;
+    margin: 10px 10px;
+    padding: 0px;
+    background: #cab;
+    font-size: 12px;
+    outline: 1px solid grey;
+
+}
+
+.ans_span {
+    display: inline;
+}
+
+.span1a.highlighted {
+    background-color: lightblue
+}
+
+.span1b.highlighted {
+    background-color: lightgreen
+}
+
+.span2a.highlighted {
+    background-color: lightblue
+}
+
+.span2b.highlighted {
+    background-color: lightgreen
+}
+
+.span3a.highlighted {
+    background-color: lightblue
+}
+
+.span34b.highlighted {
+    background-color: lightgreen
+}
+
+.span3c.highlighted {
+    background-color: lightgreen
+}
+
+
+.span4a.highlighted {
+    background-color: lightblue
+}
+
+.span6a.highlighted {
+    background-color: lightblue
+}
+
+
+.span6b.highlighted {
+    background-color: lightgreen
+}
+
+.span7a.highlighted {
+    background-color: lightblue
+}
+
+.span7b.highlighted {
+    background-color: lightgreen
+}
+
+.span9a.highlighted {
+    background-color: lightgreen
+}
+
+.span9b.highlighted {
+    background-color: yellow
+}
+
+.span9c.highlighted {
+    background-color: pink
+}
+
+.span9d.highlighted {
+    background-color: orange
+}
+
+.span10.highlighted {
+    background-color: lightblue
+}
+
+.span11a.highlighted {
+    background-color: lightblue
+}
+
+.span11b.highlighted {
+    background-color: lightgreen
+}
+
+.span12a.highlighted {
+    background-color: lightblue
+}
+
+.span12b.highlighted {
+    background-color: lightgreen
+}
+
+.span13a.highlighted {
+    background-color: lightblue
+}
+
+.span13b.highlighted {
+    background-color: lightgreen
+}
+
+
+.annotated {
+    float: left
+}
+
+select {
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.query:hover {
+    border: solid 2px darkred;
+}
+
+.card-body {
+    padding: 1.0rem;
+}
+
+#questionsWritten .card-text {
+    white-space: pre-wrap
+}
+
+#passage {
+    white-space: pre-wrap
+}
+
+#answersWritten p.card-text {
+    margin-bottom: 0.25rem
+}
+
+#answersWritten-event p.card-text {
+    margin-bottom: 0.25rem
+}
+
+.btn.btn-primary[disabled] {
+    background-color: #6c757d;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+mark { 
+  background-color: yellow;
+  color: black;
+}

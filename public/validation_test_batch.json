@@ -1,0 +1,752 @@
+[
+  {
+    "hit_id": "37SDSEDIN9RAH33K0G0IK6UOLVM188",
+    "assignment_id": "338JKRMM27O1RMF7P5SJW4BGXMCHA3",
+    "feedback": "",
+    "worker_id": "A272X64FOZFYLB",
+    "submission_time": "2020-02-17 14:48:20",
+    "passages": [
+      {
+        "passage": "Three women were killed after lightning struck late Tuesday in the western state of Maharashtra, PTI said. It was followed by heavy rains which inundated several low-lying areas and damaged crops.",
+        "events": [
+          {
+            "answer": {
+              "spans": [
+                "killed",
+                "lightning",
+                "struck",
+                "said",
+                "followed",
+                "rains",
+                "inundated",
+                "damaged",
+                "low-lying",
+                "western"
+              ],
+              "indices": [
+                "(17,23)",
+                "(30,39)",
+                "(40,46)",
+                "(101,105)",
+                "(114,122)",
+                "(132,137)",
+                "(144,153)",
+                "(182,189)",
+                "(162,171)",
+                "(67,74)"
+              ],
+              "accuracy": 0.9706
+            },
+            "passageID": "docid_AFP_ENG_19970430.0156_sentid_3"
+          }
+        ],
+        "question_answer_pairs": [
+          {
+            "question": "What event has already finished?",
+            "answer": {
+              "spans": [
+                "killed",
+                "lightning",
+                "struck",
+                "said",
+                "followed",
+                "rains",
+                "inundated",
+                "damaged"
+              ],
+              "indices": [
+                "(17,23)",
+                "(30,39)",
+                "(40,46)",
+                "(101,105)",
+                "(114,122)",
+                "(132,137)",
+                "(144,153)",
+                "(182,189)"
+              ]
+            },
+            "passageID": "docid_AFP_ENG_19970430.0156_sentid_3",
+            "question_id": "0-question-d0",
+            "isAnswered": true,
+            "is_default_question": true,
+            "derived_from": null
+          },
+          {
+            "question": "What event has begun but has not finished?",
+            "answer": {
+              "spans": [],
+              "indices": []
+            },
+            "passageID": "docid_AFP_ENG_19970430.0156_sentid_3",
+            "question_id": "0-question-d1",
+            "isAnswered": true,
+            "is_default_question": true,
+            "derived_from": null
+          },
+          {
+            "question": "What will happen in the future?",
+            "answer": {
+              "spans": [],
+              "indices": []
+            },
+            "passageID": "docid_AFP_ENG_19970430.0156_sentid_3",
+            "question_id": "0-question-d2",
+            "isAnswered": true,
+            "is_default_question": true,
+            "derived_from": null
+          },
+          {
+            "question": "What happened after PTI said something?",
+            "answer": {
+              "spans": [],
+              "indices": []
+            },
+            "passageID": "docid_AFP_ENG_19970430.0156_sentid_3",
+            "question_id": "0-question-8",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": null
+          },
+          {
+            "question": "What happened before PTI said something?",
+            "answer": {
+              "spans": [
+                "killed",
+                "lightning",
+                "struck",
+                "followed",
+                "rains",
+                "inundated",
+                "damaged"
+              ],
+              "indices": [
+                "(17,23)",
+                "(30,39)",
+                "(40,46)",
+                "(114,122)",
+                "(132,137)",
+                "(144,153)",
+                "(182,189)"
+              ]
+            },
+            "passageID": "docid_AFP_ENG_19970430.0156_sentid_3",
+            "question_id": "0-question-9",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": "0-question-8"
+          },
+          {
+            "question": "What happened during the heavy rains?",
+            "answer": {
+              "spans": [
+                "inundated",
+                "damaged"
+              ],
+              "indices": [
+                "(144,153)",
+                "(182,189)"
+              ]
+            },
+            "passageID": "docid_AFP_ENG_19970430.0156_sentid_3",
+            "question_id": "0-question-10",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": null
+          },
+          {
+            "question": "What happened after the heavy rains?",
+            "answer": {
+              "spans": [
+                "said"
+              ],
+              "indices": [
+                "(101,105)"
+              ]
+            },
+            "passageID": "docid_AFP_ENG_19970430.0156_sentid_3",
+            "question_id": "0-question-11",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": "0-question-10"
+          },
+          {
+            "question": "What happened before the heavy rains?",
+            "answer": {
+              "spans": [
+                "killed",
+                "lightning",
+                "struck"
+              ],
+              "indices": [
+                "(17,23)",
+                "(30,39)",
+                "(40,46)"
+              ]
+            },
+            "passageID": "docid_AFP_ENG_19970430.0156_sentid_3",
+            "question_id": "0-question-12",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": "0-question-11"
+          },
+          {
+            "question": "What happened before the lightning struck?",
+            "answer": {
+              "spans": [],
+              "indices": []
+            },
+            "passageID": "docid_AFP_ENG_19970430.0156_sentid_3",
+            "question_id": "0-question-13",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": null
+          },
+          {
+            "question": "What happened immediately after the lightning struck?",
+            "answer": {
+              "spans": [
+                "killed"
+              ],
+              "indices": [
+                "(17,23)"
+              ]
+            },
+            "passageID": "docid_AFP_ENG_19970430.0156_sentid_3",
+            "question_id": "0-question-14",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": "0-question-13"
+          },
+          {
+            "question": "What happened after the lightning struck?",
+            "answer": {
+              "spans": [
+                "killed",
+                "said",
+                "followed",
+                "rains",
+                "inundated",
+                "damaged"
+              ],
+              "indices": [
+                "(17,23)",
+                "(101,105)",
+                "(114,122)",
+                "(132,137)",
+                "(144,153)",
+                "(182,189)"
+              ]
+            },
+            "passageID": "docid_AFP_ENG_19970430.0156_sentid_3",
+            "question_id": "0-question-15",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": "0-question-14"
+          },
+          {
+            "question": "What happened after crops were damaged?",
+            "answer": {
+              "spans": [
+                "said"
+              ],
+              "indices": [
+                "(101,105)"
+              ]
+            },
+            "passageID": "docid_AFP_ENG_19970430.0156_sentid_3",
+            "question_id": "0-question-16",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": null
+          },
+          {
+            "question": "What started just before crops were damaged?",
+            "answer": {
+              "spans": [
+                "rains"
+              ],
+              "indices": [
+                "(132,137)"
+              ]
+            },
+            "passageID": "docid_AFP_ENG_19970430.0156_sentid_3",
+            "question_id": "0-question-17",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": "0-question-16"
+          },
+          {
+            "question": "What started just before several low-lying areas were inundated?",
+            "answer": {
+              "spans": [
+                "rains"
+              ],
+              "indices": [
+                "(132,137)"
+              ]
+            },
+            "passageID": "docid_AFP_ENG_19970430.0156_sentid_3",
+            "question_id": "0-question-18",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": null
+          },
+          {
+            "question": "What happened after several low-lying areas were inundated?",
+            "answer": {
+              "spans": [
+                "said"
+              ],
+              "indices": [
+                "(101,105)"
+              ]
+            },
+            "passageID": "docid_AFP_ENG_19970430.0156_sentid_3",
+            "question_id": "0-question-19",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": "0-question-18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hit_id": "386659BNTL6SZEYH5CN3RRO62XA10L",
+    "assignment_id": "304SM51WA4TV05YF6D4EVT2OM3USBK",
+    "feedback": "",
+    "worker_id": "A1FGKIKJYSL1MI",
+    "submission_time": "2020-02-08 01:34:45",
+    "passages": [
+      {
+        "passage": "The profit gain was made despite a weakening in the housing market, for which the company is a supplier, and a strengthening in the dollar, which lowers the value of overseas earnings when they are translated into dollars. The Wilmington, Del., company reported net of $547 million, or $2.36 a share, which was in line with Wall Street estimates.",
+        "events": [
+          {
+            "answer": {
+              "spans": [
+                "made",
+                "weakening",
+                "strengthening",
+                "reported",
+                "was",
+                "estimates",
+                "is",
+                "lowers",
+                "earnings",
+                "translated",
+                "which",
+                "they"
+              ],
+              "indices": [
+                "(20,24)",
+                "(35,44)",
+                "(111,124)",
+                "(253,261)",
+                "(307,310)",
+                "(336,345)",
+                "(90,92)",
+                "(146,152)",
+                "(175,183)",
+                "(198,208)",
+                "(301,306)",
+                "(189,193)"
+              ],
+              "accuracy": 0.9286
+            },
+            "passageID": "docid_wsj_0918_sentid_3"
+          }
+        ],
+        "question_answer_pairs": [
+          {
+            "question": "What event has already finished?",
+            "answer": {
+              "spans": [
+                "made",
+                "reported",
+                "was",
+                "estimates"
+              ],
+              "indices": [
+                "(20,24)",
+                "(253,261)",
+                "(307,310)",
+                "(336,345)"
+              ]
+            },
+            "passageID": "docid_wsj_0918_sentid_3",
+            "question_id": "2-question-d0",
+            "isAnswered": true,
+            "is_default_question": true,
+            "derived_from": null
+          },
+          {
+            "question": "What event has begun but has not finished?",
+            "answer": {
+              "spans": [],
+              "indices": []
+            },
+            "passageID": "docid_wsj_0918_sentid_3",
+            "question_id": "2-question-d1",
+            "isAnswered": true,
+            "is_default_question": true,
+            "derived_from": null
+          },
+          {
+            "question": "What will happen in the future?",
+            "answer": {
+              "spans": [],
+              "indices": []
+            },
+            "passageID": "docid_wsj_0918_sentid_3",
+            "question_id": "2-question-d2",
+            "isAnswered": true,
+            "is_default_question": true,
+            "derived_from": null
+          },
+          {
+            "question": "What was happening while the gain was being made?",
+            "answer": {
+              "spans": [
+                "weakening",
+                "strengthening"
+              ],
+              "indices": [
+                "(35,44)",
+                "(111,124)"
+              ]
+            },
+            "passageID": "docid_wsj_0918_sentid_3",
+            "question_id": "2-question-9",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": null
+          },
+          {
+            "question": "What happened after the gain was made?",
+            "answer": {
+              "spans": [
+                "reported",
+                "was"
+              ],
+              "indices": [
+                "(253,261)",
+                "(307,310)"
+              ]
+            },
+            "passageID": "docid_wsj_0918_sentid_3",
+            "question_id": "2-question-10",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": "2-question-9"
+          },
+          {
+            "question": "What began to occur before the company reported?",
+            "answer": {
+              "spans": [
+                "weakening",
+                "made",
+                "strengthening",
+                "estimates"
+              ],
+              "indices": [
+                "(35,44)",
+                "(20,24)",
+                "(111,124)",
+                "(336,345)"
+              ]
+            },
+            "passageID": "docid_wsj_0918_sentid_3",
+            "question_id": "2-question-11",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": null
+          },
+          {
+            "question": "What event was complete before the company reported?",
+            "answer": {
+              "spans": [
+                "estimates"
+              ],
+              "indices": [
+                "(336,345)"
+              ]
+            },
+            "passageID": "docid_wsj_0918_sentid_3",
+            "question_id": "2-question-12",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": "2-question-11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hit_id": "3PMR2DOWOOQ8MKH1P0CH6KR0VPV45M",
+    "assignment_id": "3W92K5RLWV693HYAZYI63UM3BTK5VJ",
+    "feedback": "",
+    "worker_id": "A3DS5B06ZCD3E3",
+    "submission_time": "2020-02-06 14:54:48",
+    "passages": [
+      {
+        "passage": "Off-spinner Arshad Khan deceived Andrew Strauss in the air and had him stumped by wicket-keeper Kamran Akmal for 26, leaving England struggling on 52-3. Solanki steadied the faltering innings with a 65-run fourth wicket stand with Flintoff, before he miscued a drive off leg-spinner Shahid Afridi and was caught in the covers.",
+        "events": [
+          {
+            "answer": {
+              "spans": [
+                "deceived",
+                "stumped",
+                "struggling",
+                "leaving",
+                "stand",
+                "drive",
+                "caught",
+                "steadied",
+                "miscued",
+                "wicket-keeper",
+                "65-run"
+              ],
+              "indices": [
+                "(24,32)",
+                "(71,78)",
+                "(133,143)",
+                "(117,124)",
+                "(220,225)",
+                "(261,266)",
+                "(305,311)",
+                "(161,169)",
+                "(251,258)",
+                "(82,95)",
+                "(199,205)"
+              ],
+              "accuracy": 0.9821
+            },
+            "passageID": "docid_AFP_ENG_20051221.0110_sentid_7"
+          }
+        ],
+        "question_answer_pairs": [
+          {
+            "question": "What event has already finished?",
+            "answer": {
+              "spans": [
+                "deceived",
+                "stumped",
+                "leaving",
+                "struggling",
+                "steadied",
+                "stand",
+                "drive",
+                "caught"
+              ],
+              "indices": [
+                "(24,32)",
+                "(71,78)",
+                "(117,124)",
+                "(133,143)",
+                "(161,169)",
+                "(220,225)",
+                "(261,266)",
+                "(305,311)"
+              ]
+            },
+            "passageID": "docid_AFP_ENG_20051221.0110_sentid_7",
+            "question_id": "1-question-d0",
+            "isAnswered": true,
+            "is_default_question": true,
+            "derived_from": null
+          },
+          {
+            "question": "What event has begun but has not finished?",
+            "answer": {
+              "spans": [],
+              "indices": []
+            },
+            "passageID": "docid_AFP_ENG_20051221.0110_sentid_7",
+            "question_id": "1-question-d1",
+            "isAnswered": true,
+            "is_default_question": true,
+            "derived_from": null
+          },
+          {
+            "question": "What will happen in the future?",
+            "answer": {
+              "spans": [],
+              "indices": []
+            },
+            "passageID": "docid_AFP_ENG_20051221.0110_sentid_7",
+            "question_id": "1-question-d2",
+            "isAnswered": true,
+            "is_default_question": true,
+            "derived_from": null
+          },
+          {
+            "question": "What happened after Khan deceived Strauss?",
+            "answer": {
+              "spans": [
+                "stumped",
+                "struggling",
+                "leaving",
+                "steadied",
+                "stand",
+                "drive",
+                "caught"
+              ],
+              "indices": [
+                "(71,78)",
+                "(133,143)",
+                "(117,124)",
+                "(161,169)",
+                "(220,225)",
+                "(261,266)",
+                "(305,311)"
+              ]
+            },
+            "passageID": "docid_AFP_ENG_20051221.0110_sentid_7",
+            "question_id": "1-question-10",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": null
+          },
+          {
+            "question": "What happened before Khan deceived Strauss?",
+            "answer": {
+              "spans": [],
+              "indices": []
+            },
+            "passageID": "docid_AFP_ENG_20051221.0110_sentid_7",
+            "question_id": "1-question-11",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": "1-question-10"
+          },
+          {
+            "question": "What happened before Strauss was stumped?",
+            "answer": {
+              "spans": [
+                "deceived"
+              ],
+              "indices": [
+                "(24,32)"
+              ]
+            },
+            "passageID": "docid_AFP_ENG_20051221.0110_sentid_7",
+            "question_id": "1-question-12",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": null
+          },
+          {
+            "question": "What happened after Strauss was stumped?",
+            "answer": {
+              "spans": [
+                "leaving",
+                "struggling",
+                "steadied",
+                "stand",
+                "drive",
+                "caught"
+              ],
+              "indices": [
+                "(117,124)",
+                "(133,143)",
+                "(161,169)",
+                "(220,225)",
+                "(261,266)",
+                "(305,311)"
+              ]
+            },
+            "passageID": "docid_AFP_ENG_20051221.0110_sentid_7",
+            "question_id": "1-question-13",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": "1-question-12"
+          },
+          {
+            "question": "What happened before England was struggling?",
+            "answer": {
+              "spans": [
+                "deceived",
+                "stumped"
+              ],
+              "indices": [
+                "(24,32)",
+                "(71,78)"
+              ]
+            },
+            "passageID": "docid_AFP_ENG_20051221.0110_sentid_7",
+            "question_id": "1-question-14",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": null
+          },
+          {
+            "question": "What happened after England was struggling?",
+            "answer": {
+              "spans": [
+                "leaving",
+                "steadied",
+                "stand",
+                "drive",
+                "caught"
+              ],
+              "indices": [
+                "(117,124)",
+                "(161,169)",
+                "(220,225)",
+                "(261,266)",
+                "(305,311)"
+              ]
+            },
+            "passageID": "docid_AFP_ENG_20051221.0110_sentid_7",
+            "question_id": "1-question-15",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": "1-question-14"
+          },
+          {
+            "question": "What happened after the fourth wicket stand?",
+            "answer": {
+              "spans": [
+                "caught",
+                "drive"
+              ],
+              "indices": [
+                "(305,311)",
+                "(261,266)"
+              ]
+            },
+            "passageID": "docid_AFP_ENG_20051221.0110_sentid_7",
+            "question_id": "1-question-16",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": null
+          },
+          {
+            "question": "What happened before the fourth wicket stand?",
+            "answer": {
+              "spans": [
+                "steadied",
+                "struggling",
+                "leaving",
+                "stumped",
+                "deceived"
+              ],
+              "indices": [
+                "(161,169)",
+                "(133,143)",
+                "(117,124)",
+                "(71,78)",
+                "(24,32)"
+              ]
+            },
+            "passageID": "docid_AFP_ENG_20051221.0110_sentid_7",
+            "question_id": "1-question-17",
+            "isAnswered": true,
+            "is_default_question": false,
+            "derived_from": "1-question-16"
+          }
+        ]
+      }
+    ]
+  }
+]

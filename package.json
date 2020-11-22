@@ -1,0 +1,29 @@
+{
+  "name": "interface",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "core-js": "^3.4.4",
+    "jquery": "^3.4.1",
+    "lodash": "^4.17.15",
+    "popper.js": "^1.16.0",
+    "query-string": "^6.9.0",
+    "vue": "^2.6.10",
+    "vue-fontawesome": "0.0.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.0",
+    "@vue/cli-plugin-eslint": "^4.1.0",
+    "@vue/cli-service": "^4.1.0",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
